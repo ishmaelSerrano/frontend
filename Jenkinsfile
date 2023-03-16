@@ -1,5 +1,5 @@
 node(){
-    stage('Cloning Git' {
+    stage('Cloning Git') {
         checkout scm
     }
 
