@@ -3,8 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Book } from '../models/book';
 
-const baseUrl = "http://localhost:8080/api/book";
-const baseUrlsave = "http://localhost:8080/api/books";
+const baseUrl = "https://booksproject-381017.nw.r.appspot.com/book";
+const baseUrlsave = ""https://booksproject-381017.nw.r.appspot.com/books";
 
 @Injectable({
   providedIn: 'root'
